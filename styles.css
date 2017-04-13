@@ -1,0 +1,86 @@
+* {
+  /*outline: 1px solid red;*/
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 122px;
+}
+
+.logoContainer{
+  max-width: 920px;
+  height: 132px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.logo {
+  width: 920px;
+  color: white;
+}
+
+.navContainer{
+  background-color: rgba(0 0 0 0);
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 920px;
+  height: 50px;
+}
+
+.nav {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav .selected {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.nav ol {
+  padding: 18px 10px;
+}
+
+.nav li {
+  border-right: 1px solid #D4B364;
+  display: block;
+  float: left;
+  font-family: sans-serif;
+  padding: 3px 20px;
+}
+
+.nav li: last-child {
+  border-right: none;
+}
+
+.picsContainer {
+  max-width: 600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+}
+
+.pics {
+  width: 600px;
+  border-style: solid;
+  border-color: #A9A9A9
+}
+.footerContainer {
+  float: right;
+}
